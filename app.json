@@ -32,26 +32,25 @@
         "android.permission.CAMERA",
         "android.permission.CAMERA"
       ],
-      "package": "com.nex3d.MachineQRApp"
+      "package": "com.quadr0.MachineQRApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-barcode-scanner",
       "expo-asset"
     ],
     "extra": {
       "eas": {
-        "projectId": "c6bace26-ac8c-42c0-91e3-8ee5ad614965"
+        "projectId": "5edd8963-dbe5-4bf6-a106-7658d0faaeaf"
       }
     },
-    "owner": "nex3d",
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
       "url": "https://u.expo.dev/c6bace26-ac8c-42c0-91e3-8ee5ad614965"
-    }
+    },
+    "owner": "quadr0"
   }
 }

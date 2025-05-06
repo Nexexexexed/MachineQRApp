@@ -3,19 +3,19 @@
   "license": "0BSD",
   "version": "1.0.0",
   "main": "index.ts",
+  "homepage": "https://github.com/Nexexexexed/MachineQRApp",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
     "@react-navigation/native": "^7.1.6",
     "@react-navigation/native-stack": "^7.3.12",
     "@react-navigation/stack": "^7.2.10",
     "expo": "^53.0.7",
     "expo-asset": "~11.1.5",
-    "expo-barcode-scanner": "^14.0.1",
     "expo-camera": "~16.1.6",
     "expo-document-picker": "~13.1.5",
     "expo-file-system": "~18.1.9",
@@ -42,6 +42,7 @@
     "@babel/core": "^7.25.2",
     "@types/react": "~19.0.10",
     "@types/react-native": "^0.73.0",
+    "gh-pages": "^6.3.0",
     "typescript": "^5.3.3"
   },
   "private": true,
